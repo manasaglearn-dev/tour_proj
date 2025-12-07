@@ -21,6 +21,7 @@ TypeofContact = st.selectbox("TypeofContact", ['Self Enquiry','Company Invited']
 CityTier = st.number_input("CityTier", min_value=1, max_value=3, value=1, step=1)
 DurationOfPitch = st.number_input("DurationOfPitch", min_value=5, max_value=130, value=5)
 Occupation = st.selectbox("Occupation", ['Salaried','Self Employed','Business','Free Lancer'])
+Gender = st.selectbox("Gender", ['Male','Female'])
 NumberOfPersonVisiting = st.number_input("NumberOfPersonVisiting", min_value=1, max_value=10, value=1)
 NumberOfFollowups = st.number_input("NumberOfFollowups", min_value=1, max_value=10, value=1)
 ProductPitched = st.selectbox("ProductPitched", ['Basic','Deluxe','Standard','King','Super Deluxe'])
@@ -42,6 +43,7 @@ input_data = pd.DataFrame([{
     'CityTier': CityTier,
     'DurationOfPitch': DurationOfPitch,
     'Occupation': Occupation,
+     'Gender': Gender,
     'NumberOfPersonVisiting': NumberOfPersonVisiting,
     'NumberOfFollowups': NumberOfFollowups,
     'ProductPitched': ProductPitched,
