@@ -43,8 +43,8 @@ input_data = pd.DataFrame([{
     'DurationOfPitch': DurationOfPitch,
     'Occupation': Occupation,
     'NumberOfPersonVisiting': NumberOfPersonVisiting,
-    'NumberOfFollowups': NumberOfFollowups
-    'ProductPitched': ProductPitched
+    'NumberOfFollowups': NumberOfFollowups,
+    'ProductPitched': ProductPitched,
     'PreferredPropertyStar': PreferredPropertyStar,
     'MaritalStatus': MaritalStatus,
     'NumberOfTrips': NumberOfTrips,
