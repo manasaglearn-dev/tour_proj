@@ -31,8 +31,8 @@ Passport= st.selectbox("Passport", ['Yes','No'])
 PitchSatisfactionScore= st.number_input("PitchSatisfactionScore", min_value=1, max_value=5, value=1)
 OwnCar= st.selectbox("OwnCar", ['Yes','No'])
 NumberOfChildrenVisiting= st.number_input("NumberOfChildrenVisiting", min_value=0, max_value=10, value=0)
-Designation= st.selectbox("Designation", ['Executive','Senior Manager','Manager','AVP','VP']
-MonthlyIncome= st.number_input("Monthly Income",min_value=0, max_value=500000, value=1000]
+Designation= st.selectbox("Designation", ['Executive','Senior Manager','Manager','AVP','VP'])
+MonthlyIncome= st.number_input("MonthlyIncome",min_value=0, max_value=500000, value=1000)
 
 
 # Assemble input into DataFrame
