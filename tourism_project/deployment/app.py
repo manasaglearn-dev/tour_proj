@@ -28,7 +28,7 @@ ProductPitched = st.selectbox("ProductPitched", ['Basic','Deluxe','Standard','Ki
 PreferredPropertyStar= st.number_input("PreferredPropertyStar", min_value=1, max_value=5, value=1)
 MaritalStatus= st.selectbox("MaritalStatus", ['Married','Single','Divorced'])
 NumberOfTrips= st.number_input("NumberOfTrips", min_value=1, max_value=10, value=1)
-Passport= st.selectbox("Passport", ['Yes','No'])
+Passport= st.number_input("Passport", min_value=0, max_value=1, value=0)
 PitchSatisfactionScore= st.number_input("PitchSatisfactionScore", min_value=1, max_value=5, value=1)
 OwnCar= st.selectbox("OwnCar", ['Yes','No'])
 NumberOfChildrenVisiting= st.number_input("NumberOfChildrenVisiting", min_value=0, max_value=10, value=0)
