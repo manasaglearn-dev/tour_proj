@@ -18,7 +18,7 @@ Please enter the Customer and tourism data below to get a prediction.
 # User input
 Age = st.number_input("Age", min_value=18, max_value=65, value=18)
 TypeofContact = st.selectbox("TypeofContact", ['Self Enquiry','Company Invited'])
-CityTier = st.selectbox("CityTier", min_value=1, max_value=3, value=324.0, step=1)
+CityTier = st.selectbox("CityTier", min_value=1, max_value=3, value=1, step=1)
 DurationOfPitch = st.number_input("DurationOfPitch", min_value=5, max_value=130, value=5)
 Occupation = st.selectbox("Occupation", ['Salaried','Self Employed','Business','Free Lancer'])
 NumberOfPersonVisiting = st.number_input("NumberOfPersonVisiting", min_value=1, max_value=10, value=1)
