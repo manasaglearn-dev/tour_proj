@@ -39,12 +39,12 @@ numeric_features = [
       'NumberOfTrips',
       'Passport',
       'PitchSatisfactionScore',
-      'OwnCar',
       'NumberOfChildrenVisiting',
       'MonthlyIncome'
 ]
 categorical_features = [
         'TypeofContact',
+         'OwnCar',
         'Occupation',
         'Gender',
         'ProductPitched',
