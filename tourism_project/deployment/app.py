@@ -58,6 +58,14 @@ input_data = pd.DataFrame([{
     'MonthlyIncome': MonthlyIncome
 }])
 
+numeric_cols = [
+    'Age', 'CityTier', 'DurationOfPitch', 'NumberOfPersonVisiting',
+    'NumberOfFollowups', 'PreferredPropertyStar', 'NumberOfTrips',
+    'Passport', 'PitchSatisfactionScore', 'OwnCar',
+    'NumberOfChildrenVisiting', 'MonthlyIncome'
+]
+
+input_data[numeric_cols] = input_data[numeric_cols].astype(float)
 
 if st.button("Tourism Product Taken"):
     prediction = model.predict(input_data)[0]
