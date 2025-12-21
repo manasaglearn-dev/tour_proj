@@ -61,7 +61,7 @@ input_data = pd.DataFrame([{
 numeric_cols = [
     'Age', 'CityTier', 'DurationOfPitch', 'NumberOfPersonVisiting',
     'NumberOfFollowups', 'PreferredPropertyStar', 'NumberOfTrips',
-    'Passport', 'PitchSatisfactionScore', 'OwnCar',
+    'Passport', 'PitchSatisfactionScore', 
     'NumberOfChildrenVisiting', 'MonthlyIncome'
 ]
 
